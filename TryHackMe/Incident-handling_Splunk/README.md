@@ -21,4 +21,4 @@
 | stream: DNS | It contains the network flow related to DNS traffic.|
 | stream:icmp | It contains the network flow related to icmp traffic.|
 
-**Note**: All the event logs that we are going to investigate are present in index=botsv1
+>**Note**: All the event logs that we are going to investigate are present in index=botsv1

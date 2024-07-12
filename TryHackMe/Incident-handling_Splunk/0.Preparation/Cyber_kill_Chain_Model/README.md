@@ -56,7 +56,7 @@
     | http_user_agent | User-Agent of the User request |
     | uri | URL of endpoints |
         
-- **URI**
+- **URI :**
     1. Search Query : `index=botsv1 imreallynotbatman.com sourcetype=stream:http dest_ip="192.168.250.70"  uri="/joomla/administrator/index.php"`
     >**Show traffic coming into the URI requested**
     *We are going to add uri="/joomla/administrator/index.php" in the search query to show the traffic coming into this URI* 
@@ -67,13 +67,23 @@
 
     3. Search Query : `index=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" http_method=POST uri="/joomla/administrator/index.php" form_data=*username*passwd* | table _time uri src_ip dest_ip form_data`
     >**Search Username and Password in `form_data`**
-    We can display only the logs that contain the username and passwd values in the form_data field by adding `form_data=*username*passwd*` in the above search.
+    *We can display only the logs that contain the username and passwd values in the form_data field by adding `form_data=*username*passwd*` in the above search.*
 
-    1. Search Query : `index=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" http_method=POST uri="/joomla/administrator/index.php" form_data=*username*passwd* | table _time uri src_ip dest_ip form_data`
+    4. Search Query : `ndex=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" http_method=POST form_data=*username*passwd* | rex field=form_data "passwd=(?<creds>\w+)"  | table src_ip creds`
+    >**Extract Username and Password using Regex**
+    *This will pick the `form_data` field and extract all the values found with the field. `creds.`*
 
+    5. Search Query : `index=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" http_method=POST form_data=*username*passwd* | rex field=form_data "passwd=(?<creds>\w+)" |table _time src_ip uri http_user_agent creds`
+    >**Display key fields and values**
+    *add `http_user_agent` a field in the search head.*
 
 ## 5. Installation
 
+- **.exe**
+    1. Search Query : `index=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" *.exe`
+    >**Show all http traffic containing the term .exe**
+    *With the search query in place, we are looking for the fields that could have some values of our interest. As we could not find the file name field, we looked at the missing fields and saw a field. `part_filename{}`*
+    
 ## 6. Command & Control
 
 ## 7. Actions on Objectives
