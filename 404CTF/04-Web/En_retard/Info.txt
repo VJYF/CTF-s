@@ -1,0 +1,15 @@
+URL :
+https://en-retard.challenges.404ctf.fr/ (Headers = none)
+https://en-retard.challenges.404ctf.fr/donnez-moi-mon-ticket-pitie (
+Headers =
+fraude=true
+
+)
+https://en-retard.challenges.404ctf.fr/devant-le-match (Headers = ?)
+https://en-retard.challenges.404ctf.fr/set_cookie (Headers = ?)
+
+ID :
+Billet => 053HJ28LOS
+
+COOKIES :
+fraude=True

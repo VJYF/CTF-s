@@ -1,0 +1,53 @@
+  09:32:00 F5-BIG-IP-VE cpas.intra notice tmm[10051]: 01490510:5: 00000000: Initializing Access with max global concurrent access session limit: 0
+  10:55:00 F5-BIG-IP-VE cpas.intra notice apmclient_mount[9632]: 014902c7:5: auto-mount command start.
+  10:55:00 F5-BIG-IP-VE cpas.intra notice apmclient_mount[9632]: 014902c7:5: cmd_mount: APM is not provisioned. Skip auto-mount' command.
+  15:57:00 F5-BIG-IP-VE cpas.intra notice apmclient_mount[9632]: 014902c7:5: auto-mount command start.
+  15:57:00 F5-BIG-IP-VE cpas.intra notice apmclient_mount[9632]: 014902c7:5: cmd_mount: APM is not provisioned. Skip auto-mount' command.
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[14006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Received User Agent header:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.22631
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: New session from client IP 86.52.53.227 (ST=Brussels/CC=BE/C=EU) at VIP 10.255.2.252 Listener /Common/VS_PORTAL (Reputation=Unknown)
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Username jean.dupont
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Webtop '/Common/WT_Portal' assigned
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: ACL '/Common/ACL_IT_ADM' assigned
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Connectivity ressource '/Common/NA_VPN_Access' assigned
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Webtop '/Common/WT_Portal' assigned
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Following rule 'fallback' from item 'Check PIU (2) to terminalout 'Out'
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Following rule 'fallback' from item 'RDG Policy Assign' to ending 'Allow'
+  16:30:56 F5-BIG-IP-VE-1 cpas.intra notice apmd[15006] 01490010:5: /Common/AD_Portal:Common:56a29f98: Access policy result: Full
+  18:20:00 F5-BIG-IP-VE cpas.intra notice tmm[21319] 01490006:5: /Common/AD_Portal:Common:4a809d6: Received User Agent header: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.22631
+  18:20:00 F5-BIG-IP-VE cpas.intra notice tmm[21319] 01490500:5: /Common/AD_Portal:Common:4a809d6: New session from client IP 14.237.14.86 (ST=Zaventem/CC=BE/C=EU) at VIP 10.51.141.9 Listener /Common/VS_PORTAL (Reputation=Unknown)
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490010:5: /Common/AD_Portal:Common:4a809d6: Username philippe.noël
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490128:5: /Common/AD_Portal:Common:4a809d6: Webtop '/Common/WT_Portal' assigned
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490009:5: /Common/AD_Portal:Common:4a809d6: ACL '/Common/ACL_IT_ADM' assigned
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490008:5: /Common/AD_Portal:Common:4a809d6: Connectivity ressource '/Common/NA_VPN_Access' assigned
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490008:5: /Common/AD_Portal:Common:4a809d6: Connectivity ressource '/Common/RDP_WebAccess' assigned
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490128:5: /Common/AD_Portal:Common:4a809d6: Webtop '/Common/WT_Portal' assigned
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490115:5: /Common/AD_Portal:Common:4a809d6: Following rule 'fallback' from item 'Check PIU (2) to terminalout 'Out'
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490105:5: /Common/AD_Portal:Common:4a809d6: Following rule 'fallback' from item 'RDG Policy Assign' to ending 'Allow'
+  18:20:00 F5-BIG-IP-VE cpas.intra notice apmd[21030] 01490102:5: /Common/AD_Portal:Common:4a809d6: Access policy result: Full
+  18:32:00 F5-BIG-IP-VE cpas.intra notice tmm[26570] 01980500:5: /Common/AD_Portal:Common:9314f67: michaël.libert disconnected from client IP 170.246.24.100
+  19:43:00 F5-BIG-IP-VE cpas.intra notice tmm[25958] 01490006:5: /Common/AD_Portal:Common:a9612ef: Received User Agent header: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.22631
+  19:43:00 F5-BIG-IP-VE cpas.intra notice tmm[25958] 01490500:5: /Common/AD_Portal:Common:a9612ef: New session from client IP 122.16.110.205 (ST=Zaventem/CC=BE/C=EU) at VIP 10.154.159.66 Listener /Common/VS_PORTAL (Reputation=Unknown)
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490010:5: /Common/AD_Portal:Common:a9612ef: Username véronique.lebon
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490128:5: /Common/AD_Portal:Common:a9612ef: Webtop '/Common/WT_Portal' assigned
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490009:5: /Common/AD_Portal:Common:a9612ef: ACL '/Common/ACL_IT_ADM' assigned
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490008:5: /Common/AD_Portal:Common:a9612ef: Connectivity ressource '/Common/NA_VPN_Access' assigned
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490008:5: /Common/AD_Portal:Common:a9612ef: Connectivity ressource '/Common/RDP_WebAccess' assigned
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490128:5: /Common/AD_Portal:Common:a9612ef: Webtop '/Common/WT_Portal' assigned
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490115:5: /Common/AD_Portal:Common:a9612ef: Following rule 'fallback' from item 'Check PIU (2) to terminalout 'Out'
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490105:5: /Common/AD_Portal:Common:a9612ef: Following rule 'fallback' from item 'RDG Policy Assign' to ending 'Allow'
+  19:43:00 F5-BIG-IP-VE cpas.intra notice apmd[14991] 01490102:5: /Common/AD_Portal:Common:a9612ef: Access policy result: Full
+  19:48:00 F5-BIG-IP-VE cpas.intra notice tmm[29687] 01980500:5: /Common/AD_Portal:Common:fc1d800: noa.jacob disconnected from client IP 90.247.160.199
+  20:24:00 F5-BIG-IP-VE cpas.intra notice tmm[21885] 01490006:5: /Common/AD_Portal:Common:540b665: Received User Agent header: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+  20:24:00 F5-BIG-IP-VE cpas.intra notice tmm[21885] 01490500:5: /Common/AD_Portal:Common:540b665: New session from client IP 99.227.171.201 (ST=Charleroi/CC=BE/C=EU) at VIP 10.209.241.244 Listener /Common/VS_PORTAL (Reputation=Unknown)
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490010:5: /Common/AD_Portal:Common:540b665: Username gwendoline.donnay
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490128:5: /Common/AD_Portal:Common:540b665: Webtop '/Common/WT_Portal' assigned
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490009:5: /Common/AD_Portal:Common:540b665: ACL '/Common/ACL_IT_ADM' assigned
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490008:5: /Common/AD_Portal:Common:540b665: Connectivity ressource '/Common/NA_VPN_Access' assigned
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490008:5: /Common/AD_Portal:Common:540b665: Connectivity ressource '/Common/RDP_WebAccess' assigned
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490128:5: /Common/AD_Portal:Common:540b665: Webtop '/Common/WT_Portal' assigned
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490115:5: /Common/AD_Portal:Common:540b665: Following rule 'fallback' from item 'Check PIU (2) to terminalout 'Out'
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490105:5: /Common/AD_Portal:Common:540b665: Following rule 'fallback' from item 'RDG Policy Assign' to ending 'Allow'
+  20:24:00 F5-BIG-IP-VE cpas.intra notice apmd[23812] 01490102:5: /Common/AD_Portal:Common:540b665: Access policy result: Full
+  20:36:00 F5-BIG-IP-VE cpas.intra notice apmclient_mount[9632]: 014902c7:5: auto-mount command start.
+  20:36:00 F5-BIG-IP-VE cpas.intra notice apmclient_mount[9632]: 014902c7:5: cmd_mount: APM is not provisioned. Skip auto-mount' command.
+  22:19:00 F5-BIG-IP-VE cpas.intra notice tmm[26899] 01980500:5: /Common/AD_Portal:Common:88a4193: téo.collet disconnected from client IP 73.215.211.15

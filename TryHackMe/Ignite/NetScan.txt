@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Sat May 18 09:25:15 2024 as: nmap -sV -p- -oN NetScan.txt 10.10.148.33
+Nmap scan report for 10.10.148.33
+Host is up (0.036s latency).
+Not shown: 65534 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May 18 09:27:57 2024 -- 1 IP address (1 host up) scanned in 161.59 seconds

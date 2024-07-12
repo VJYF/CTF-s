@@ -1,0 +1,17 @@
+/workspace/Chaining/CPYAYES/var/apm/scripts/mysql/ReportingFunctions.sql
+/workspace/Chaining/CPYAYES/var/apm/scripts/mysql/apm_create_db.sql
+/workspace/Chaining/CPYAYES/var/apm/scripts/mysql/bigip_mgmt_acld_log_defs.sql
+/workspace/Chaining/CPYAYES/var/apm/scripts/mysql/localdb_mysql_first_init.sql
+/workspace/Chaining/CPYAYES/var/apm/scripts/mysql/localdb_mysql_init.sql
+/workspace/Chaining/CPYAYES/var/apm/scripts/mysql/oauth_noop.sql
+/workspace/Chaining/CPYAYES/var/avr/avr.sql
+/workspace/Chaining/CPYAYES/var/avr/avr_srv_code.sql
+/workspace/Chaining/CPYAYES/var/avr/avr_stat_tables.sql
+/workspace/Chaining/CPYAYES/var/avr/avr_tmstat_tables.sql
+/workspace/Chaining/CPYAYES/var/avr/create_udf.sql
+/workspace/Chaining/CPYAYES/var/avr/drop_udf.sql
+/workspace/Chaining/CPYAYES/var/ts/install/asm_user.sql
+/workspace/Chaining/CPYAYES/var/ts/install/dcc.sql
+/workspace/Chaining/CPYAYES/var/ts/install/plc.sql
+/workspace/Chaining/CPYAYES/var/ts/install/prx.sql
+/workspace/Chaining/CPYAYES/var/ts/install/security.sql

@@ -1,0 +1,1 @@
+cat access.log | grep index.php | awk -F '"' '{print substr($2, 5)}' | sed 's|^|https://inscription_tir_arc.com|' > urls.txt

