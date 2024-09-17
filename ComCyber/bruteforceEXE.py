@@ -1,36 +1,46 @@
 import subprocess
+import string
 
-def bruteforce_exe(input1, input2, wordlist1, wordlist2):
-    # Read the wordlists from files
-    with open(wordlist1, 'r') as file1, open(wordlist2, 'r') as file2:
-        # Iterate over the lines in the wordlists
-        word_counter = 0
-        for line1 in file1:
-            for line2 in file2:
-                # Strip the newline characters
-                input1 = line2.strip()
-                input2 = line2.strip()
-                
-                # Run the EXE with the current inputs
-                result = subprocess.run(['/home/kzebe/Desktop/Git/CTF-s/ComCyber/m4lw3r3', input1, input2], capture_output=True, text=True)
-                
-                # Counter for each word used
-                # print(f" Testing Inputs: {input1}, {input2} ")
-                
-                # Increment the counter for each word used
-                word_counter += 1
+class Bruteforce:
+    def __init__(self, input1, input2, wordlist):
+        self.input1 = input1
+        self.input2 = input2
+        self.wordlist = wordlist
 
-                # Print the current word count
-                print(f"Word count: {word_counter}")
+    def run(self):
+        self.bruteforce_recursive("")
 
-                # Check the output of the EXE
-                if result.stderr.strip() != "input1 FAILED":
-                    print(f"Inputs found: {input1}, {input2}")
-                    return
+    def bruteforce_recursive(self, current_password):
+        if self.try_password(current_password):
+            print(f"Password found: {current_password}")
+            return True
+
+        if len(current_password) >= 5:
+            return False
+        
+        for char in string.ascii_lowercase + string.digits:
+            if self.bruteforce_recursive(current_password + char):
+                return True
+        return False
+
+    def try_password(self, password):
+        # Replace 'your_executable' with the actual executable you want to run
+        process = subprocess.run(['./m4lw3r3', password, self.input2], capture_output=True, text=True)
+        if process.stderr == "input1 FAILED\n":
+            print(f"wrong password: {password}")
+            print(f" {process.stderr}")
+            return False
+        else:
+            return True
+
+def bruteforce_exe(input1, input2, wordlist):
+    bf = Bruteforce(input1, input2, wordlist)
+    bf.run()
+
 
 # Example usage
-wordlist1 = "/usr/share/wordlists/rockyou.txt"
-wordlist2 = "/usr/share/wordlists/rockyou.txt"
+wordlist1 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 input1 = ""
-input2 = ""
-bruteforce_exe(input1, input2, wordlist1, wordlist2)
+input2 = "A"
+
+bruteforce_exe(input1, input2, wordlist1)
