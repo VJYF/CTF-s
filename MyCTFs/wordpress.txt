@@ -1,0 +1,9 @@
+# Server info
+Droplet Pass : passwordpress1@Vince
+Droplet Name : VinceWordpressPOC
+Droplet IP : 167.99.42.43
+
+# WP info
+User : AdminVince
+Password : PasswordVinceWordpPOC
+
