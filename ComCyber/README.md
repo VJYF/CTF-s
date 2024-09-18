@@ -165,6 +165,13 @@ Aug 27 12:33:56 COMCYBER_SRV root[250822]: CMD(zip --password $(cat /tmp/.passwo
 ```bash 
 Aug 27 12:38:48 COMCYBER_SRV root[250822]: CMD(cat /app/static/assets/images/favicon.ico ./secret.zip > /app/static/assets/images/favicon.ico) [0]
 ```
+After dpkg this favicon we found the message.txt within : RM{6ba43cb5eeab217270e9692e939da5341a82d2ff}
+6. The hacker print an ecrypted string to the crontab 
+
+```bash 
+Aug 27 12:38:49 COMCYBER_SRV root[250822]: CMD(echo'2a202a202a202a202a20206563686f2027524d7b393835336561303861623734373265653865663237633631363239396461663530653330626439307d270a' | xxd -r -p | crontab -) [0] 
+```
+String revert : RM{9853ea08ab7472ee8ef27c616299daf50e30bd90}
 
 # M4lw3r3 Analysis 
 
