@@ -1,0 +1,10 @@
+VJYF@KALI:~$ john --wordlist=/usr/share/wordlists/rockyou.txt --format=NT hashdumpBLUE.txt
+
+Using default input encoding: UTF-8
+Loaded 1 password hash (NT [MD4 256/256 AVX2 8x3])
+Warning: no OpenMP support for this hash type, consider --fork=4
+Press 'q' or Ctrl-C to abort, almost any other key for status
+********         (Jon)
+1g 0:00:00:01 DONE (2025-03-24 12:20) 0.5952g/s 6071Kp/s 6071Kc/s 6071KC/s alr19882006..alpusidi
+Use the "--show --format=NT" options to display all of the cracked passwords reliably
+Session completed.
