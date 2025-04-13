@@ -1,0 +1,178 @@
+# Nmap 7.95 scan initiated Sun Apr 13 12:36:28 2025 as: /usr/lib/nmap/nmap --privileged -A -p- -vv -oN nmapSCAN.txt 10.10.193.157
+Nmap scan report for 10.10.193.157
+Host is up, received echo-reply ttl 127 (0.040s latency).
+Scanned at 2025-04-13 12:36:29 CEST for 255s
+Not shown: 65512 filtered tcp ports (no-response)
+PORT      STATE SERVICE       REASON          VERSION
+80/tcp    open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+|_http-title: PhotoStore - Home
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+81/tcp    open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+|_http-title: Network Monitor
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+82/tcp    open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-favicon: Unknown favicon MD5: C967A141ABFF1D6AB42CE7440E58128C
+|_http-server-header: Microsoft-IIS/10.0
+88/tcp    open  kerberos-sec  syn-ack ttl 127 Microsoft Windows Kerberos (server time: 2025-04-13 10:39:07Z)
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+389/tcp   open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: troy.thm0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds? syn-ack ttl 127
+464/tcp   open  kpasswd5?     syn-ack ttl 127
+593/tcp   open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped    syn-ack ttl 127
+3268/tcp  open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: troy.thm0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped    syn-ack ttl 127
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+|_ssl-date: 2025-04-13T10:40:42+00:00; 0s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: TROY
+|   NetBIOS_Domain_Name: TROY
+|   NetBIOS_Computer_Name: TROY-DC
+|   DNS_Domain_Name: troy.thm
+|   DNS_Computer_Name: TROY-DC.troy.thm
+|   DNS_Tree_Name: troy.thm
+|   Product_Version: 10.0.17763
+|_  System_Time: 2025-04-13T10:40:03+00:00
+| ssl-cert: Subject: commonName=TROY-DC.troy.thm
+| Issuer: commonName=TROY-DC.troy.thm
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-04-12T10:33:36
+| Not valid after:  2025-10-12T10:33:36
+| MD5:   d887:e975:e335:4839:f7ff:46c2:a3fe:36ea
+| SHA-1: 2680:83fe:dbc2:362c:e169:7173:8a18:3c73:d60e:2318
+| -----BEGIN CERTIFICATE-----
+| MIIC5DCCAcygAwIBAgIQUZkvwzmSRK5GvD7O0GzxxDANBgkqhkiG9w0BAQsFADAb
+| MRkwFwYDVQQDExBUUk9ZLURDLnRyb3kudGhtMB4XDTI1MDQxMjEwMzMzNloXDTI1
+| MTAxMjEwMzMzNlowGzEZMBcGA1UEAxMQVFJPWS1EQy50cm95LnRobTCCASIwDQYJ
+| KoZIhvcNAQEBBQADggEPADCCAQoCggEBAOhzZGTBJGr+pCDngoeMRCDIt8LFXw2J
+| 5Cu+a4eCZDY3nRG9Zz3Hz3FW6Q1EMJbPJ7DlV/XIdxbmrNOmJtNcXWzE5S7hU0Je
+| I0LatvbwlgTMVmlkErKBVBffuqjT3ZQZ5maqV5u3U0mSun0lPHw11jZO5AttQfBb
+| ego2iWGCVqBQQhgURslUswK9tRQHI1R34gOBwXAi9VQdyIfqsbxsbxIOpqA5XTSx
+| QYNY/1UVncDdwh+YOAt2aZbl84umB655Dmexcswhgce+LCal9jm0MWIoPiPi5LBt
+| vZmbkOfMol2bHcSLqdJyCiPyppcHzGKOUI4OTHejfEECc9hy1JniotUCAwEAAaMk
+| MCIwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEB
+| CwUAA4IBAQA5vwvrl6ZSiYwLMY99bBhnMlMH3dPOwhXd787K+zwXpy5qMZMUq1A2
+| dQ9dSHjhUA9GCqg+InAylxicV1qAijfO+2ITKOl0A9veBUmMPoUutfKA33MV4RH1
+| 9YqeTPT53O0lt9NsWPdGGgFMHmn/dAYTyMC5kewPnC3iKSvf0AYPIEZKm/063n0F
+| uJEDskG3iGVQBhNYQdSWCHSN030fJETVkSX2cKoCyFn33zs1vrHKBlT2Q5ohxjXS
+| 5aUNDUEifkMvMzvvXqpKX72hO0jCDttxTHLjHqrLOGj7xyYaAYZpMMc4LAC2cXpE
+| u1FVNk7hu5VQlwqwUvp7upbKVQwlA93n
+|_-----END CERTIFICATE-----
+7680/tcp  open  pando-pub?    syn-ack ttl 127
+9389/tcp  open  mc-nmf        syn-ack ttl 127 .NET Message Framing
+9999/tcp  open  http          syn-ack ttl 127 Golang net/http server
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Date: Sun, 13 Apr 2025 10:39:07 GMT
+|     Content-Length: 0
+|   GenericLines, Help, LPDString, RTSPRequest, SIPOptions, SSLSessionReq, Socks5: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   OfficeScan: 
+|     HTTP/1.1 400 Bad Request: missing required Host header
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|_    Request: missing required Host header
+|_http-title: Site doesn't have a title.
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49673/tcp open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+49674/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49677/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49711/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9999-TCP:V=7.95%I=7%D=4/13%Time=67FB944B%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,4B,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sun,\x2013\x20Apr\x2020
+SF:25\x2010:39:07\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,4
+SF:B,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sun,\x2013\x20Apr\x202025\x2010:3
+SF:9:07\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,4B,"H
+SF:TTP/1\.0\x20200\x20OK\r\nDate:\x20Sun,\x2013\x20Apr\x202025\x2010:39:07
+SF:\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(GenericLines,67,"HTTP/1\.1\
+SF:x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf
+SF:-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(RTSPRequest
+SF:,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;
+SF:\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request"
+SF:)%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20tex
+SF:t/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20
+SF:Request")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\
+SF:r\n400\x20Bad\x20Request")%r(LPDString,67,"HTTP/1\.1\x20400\x20Bad\x20R
+SF:equest\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\
+SF:x20close\r\n\r\n400\x20Bad\x20Request")%r(SIPOptions,67,"HTTP/1\.1\x204
+SF:00\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r
+SF:\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Socks5,67,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20chars
+SF:et=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Offic
+SF:eScan,A3,"HTTP/1\.1\x20400\x20Bad\x20Request:\x20missing\x20required\x2
+SF:0Host\x20header\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nCon
+SF:nection:\x20close\r\n\r\n400\x20Bad\x20Request:\x20missing\x20required\
+SF:x20Host\x20header");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019|10 (97%)
+OS CPE: cpe:/o:microsoft:windows_server_2019 cpe:/o:microsoft:windows_10
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Windows Server 2019 (97%), Microsoft Windows 10 1903 - 21H1 (91%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=4/13%OT=80%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=67FB94AC%P=x86_64-pc-linux-gnu)
+SEQ(SP=109%GCD=1%ISR=109%TI=I%II=I%SS=S%TS=U)
+SEQ(SP=FF%GCD=1%ISR=10A%TI=I%II=I%SS=S%TS=U)
+OPS(O1=M508NW8NNS%O2=M508NW8NNS%O3=M508NW8%O4=M508NW8NNS%O5=M508NW8NNS%O6=M508NNS)
+WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)
+ECN(R=Y%DF=Y%TG=80%W=FFFF%O=M508NW8NNS%CC=Y%Q=)
+T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=265 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: TROY-DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-04-13T10:40:07
+|_  start_date: N/A
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 38822/tcp): CLEAN (Timeout)
+|   Check 2 (port 31142/tcp): CLEAN (Timeout)
+|   Check 3 (port 61335/udp): CLEAN (Timeout)
+|   Check 4 (port 32663/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+1   46.29 ms 10.9.0.1
+2   46.43 ms 10.10.193.157
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 13 12:40:44 2025 -- 1 IP address (1 host up) scanned in 255.86 seconds
