@@ -1,0 +1,7 @@
+/images              [36m (Status: 301)[0m [Size: 331][34m [--> http://storage.cloudsite.thm/images/][0m
+/assets              [36m (Status: 301)[0m [Size: 331][34m [--> http://storage.cloudsite.thm/assets/][0m
+/css                 [36m (Status: 301)[0m [Size: 328][34m [--> http://storage.cloudsite.thm/css/][0m
+/js                  [36m (Status: 301)[0m [Size: 327][34m [--> http://storage.cloudsite.thm/js/][0m
+/javascript          [36m (Status: 301)[0m [Size: 335][34m [--> http://storage.cloudsite.thm/javascript/][0m
+/fonts               [36m (Status: 301)[0m [Size: 330][34m [--> http://storage.cloudsite.thm/fonts/][0m
+/server-status       [33m (Status: 403)[0m [Size: 286]
